@@ -1,2 +1,5 @@
 # ManipuLang
-Multimodal vision-language model to parse open-vocabulary prompts for editing 3D scenes
+Rendering and editing real environments virtually typically involve advanced software that requires expert users. Methods such as Gaussian Splatting have simplified the conversion of real-world images to 3D virtual scenes, but current processes of editing these scenes involve manual specification of tasks, identification of objects, and localization of interest regions (in the form of bounding boxes) for addition tasks. Therefore, modifying 3D scenes using open-vocabulary queries is an open problem. We propose a solution called ManipuLang, which integrates LLMs (GPT-4o and LLaVA-3D) for interpreting arbitrary language prompts for task and object identification. It then uses GroundedSAM to localize the object and removes the associated Gaussians in the scene. We also explore options for performing addition into the scene. We hope this offers an avenue for easily and accessibly manipulating 3D environments generated from real-world images
+
+The full report can be viewed [here](https://github.com/pranav-datta/ManipuLang/blob/main/ManipuLang%20Project%20Report.pdf).
+
